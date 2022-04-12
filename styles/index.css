@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ecf5ff;
+  height: 100vh;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.login {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: fit-content;
+  height: fit-content;
+  border: 5px solid #5aa7eb;
+  border-radius: 10%;
+  text-align: center;
+  color: #5aa7eb;
+  padding: 5px;
+}
+.login h2 {
+  margin: 5px;
+}
+.hidden {
+  display: none;
+}
+.login input {
+  border: 1px solid #5aa7eb;
+  font-size: small;
+  width: 70%;
+}
+.login input::placeholder {
+  color: #5aa7eb;
+}
+.login button {
+  border: 1px solid #5aa7eb;
+  background-color: white;
+  color: #5aa7eb;
+  margin: 0;
+}
+.login #hello_User {
+  height: 100%;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 200px;
+  border: 5px solid #5aa7eb;
+  border-radius: 20px;
+}
+
+.title {
+  color: #5aa7eb;
+}
+
+.start-btn {
+  border: 1px solid #5aa7eb;
+  padding: 10px 70px;
+  background-color: white;
+  cursor: pointer;
+  color: #5aa7eb;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 50px;
+}
+
+.start-btn:hover {
+  border: 1px solid #5aa7eb;
+  padding: 10px 70px;
+  background-color: white;
+  box-shadow: 0 5px 15px #5aa7eb;
+  cursor: pointer;
+}
+
+.result {
+  color: #5aa7eb;
+  font-weight: bold;
+  font-size: 100px;
+}
